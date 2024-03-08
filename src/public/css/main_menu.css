@@ -1,0 +1,10 @@
+.menu__box {
+    text-align: center;
+}
+
+.menu-text {
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

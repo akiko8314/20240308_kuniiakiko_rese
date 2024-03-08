@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu__icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5%;
+}
+
+.menu__icon::before,
+.menu__icon::after,
+.menu__icon div {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    height: 1px;
+    transform: translateX(-50%);
+    padding-left: 10%;
+}
+
+.menu__icon::before {
+    top: 20%;
+    width: 80%;
+    left: 20%;
+}
+
+.menu__icon::after {
+    top: 50%;
+    width: 100%;
+    left: 30%;
+}
+
+.menu__icon div {
+    top: 70%;
+    width: 30%;
+    left: 10%;
+}
